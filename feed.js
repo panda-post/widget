@@ -807,9 +807,14 @@ async function getPosts(user) {
                 background-color: #ffffff;
                 box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
                 padding: 20px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
             ">
                 <h2 style="
                     color: #333333;
+                    font-family: 'Poppins', sans-serif;
                     font-size: 24px;
                     font-weight: bold;
                     margin: 0;
@@ -818,6 +823,7 @@ async function getPosts(user) {
                     color: #333333;
                     font-size: 16px;
                     margin: 10px 0 0;
+                    font-family: 'Inter', sans-serif;
                 ">Please update your subscription in your account to gain access to the embed feed.</p>
             </div>
         `;
