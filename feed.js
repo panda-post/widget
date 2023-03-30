@@ -107,7 +107,7 @@ async function createLike (post) {
 
     const heartIcon = document.getElementById(`span${post}`);
     heartIcon.className = "material-icons";
-    heartIcon.style.color = "EB2323";
+    heartIcon.style.color = "#EB2323";
     heartIcon.innerText = "favorite";
     
     const response = await fetch(`https://flow-post.bubbleapps.io/version-test/api/1.1/wf/like-post`, {
@@ -133,7 +133,7 @@ async function deleteLike (post) {
 
     const heartIcon = document.getElementById(`span${post}`);
     heartIcon.className = "material-icons-outlined";
-    heartIcon.style.color = "111111";
+    heartIcon.style.color = "#111111";
     heartIcon.innerText = "favorite_border";
 
     const response = await fetch(`https://flow-post.bubbleapps.io/version-test/api/1.1/wf/dislike-post`, {
